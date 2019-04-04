@@ -1,4 +1,4 @@
-package com.designpatterns.strategy.Impl;
+package com.designpatterns.strategy.DuckBehaviourImpl.FlyBehaviourImpl;
 
 import com.designpatterns.strategy.FlyBehaviour;
 

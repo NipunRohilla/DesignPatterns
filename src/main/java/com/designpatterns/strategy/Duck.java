@@ -5,10 +5,10 @@ public abstract class Duck {
     * may not have all the features and it will be waste of code to implement all the behaviour where ever not required.
     * Also, code reuse is not strictly followed.
     * */
-    private FlyBehaviour flyBehaviour;
-    private QuackBehaviour quackBehaviour;
+    protected FlyBehaviour flyBehaviour;
+    protected QuackBehaviour quackBehaviour;
 
-    abstract void display();
+    protected abstract void display();
 
     public Duck(){}
 
