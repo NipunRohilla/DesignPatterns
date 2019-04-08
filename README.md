@@ -20,3 +20,18 @@ you want to create a reusable class that cooperates with unrelated or unforeseen
 interfaces.
 you want to use several existing subclasses, but its impractical to adapt their interface by subclassing everyone.
 An object adapter can adapt the interface of its parent class.
+
+3. Decorator design pattern
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending
+functionality.
+
+Use case:
+Sometimes  we want to add responsibilities to individual objects, not to an entire class.
+One way to add responsibilities is with inheritance and This is inflexible so more flexible approach is to
+enclose a component in a decorator object that adds the responsibilities properly.
+
+USe decorator:
+-to add responsibilities to individual objects dynamically and transparently, that is , without affecting other objects.
+-for responsibilities tht can be withdrawn.
+-when extension by subclassing is impractical. Sometime a large no of independent extensions are possible and would produce
+an explosion of subclasses to support every combination. Or a class definition may be hidden or otherwise available for subclassing.
